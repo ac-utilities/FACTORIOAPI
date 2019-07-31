@@ -1,0 +1,17 @@
+{
+  "id": "Iron_plate",
+  "producedBy": [
+    "Stone_furnace",
+    "Steel_furnace",
+    "Electric_furnace"
+  ],
+  "recipe": {
+    "itemAmounts": [
+      {
+        "amount": 1 ,
+        "id": "Iron_ore"
+      }
+    ],
+    "time": 3.2
+  }
+}

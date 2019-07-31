@@ -1,0 +1,18 @@
+{
+  "id": "Stone_furnace",
+  "producedBy": [
+    "Assembling_machine_1",
+    "Assembling_machine_2",
+    "Assembling_machine_3",
+    "Manual_crafting"
+  ],
+  "recipe": {
+    "itemAmounts": [
+      {
+        "amount": 5 ,
+        "id": "Stone"
+      }
+    ],
+    "time": 0.5
+  }
+}
