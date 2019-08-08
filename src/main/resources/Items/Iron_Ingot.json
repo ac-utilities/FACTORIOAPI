@@ -1,0 +1,120 @@
+{
+  "id": "Iron_Ingot",
+  "crafting_recipe"  : [
+    {
+      "recipe": [
+        {
+            "machine": "Blast_Furnace_MK1",
+            "time": 4
+        },
+        {
+            "machine": "Blast_Furnace_MK2",
+            "time": 2.667
+        },
+        {
+            "machine": "Blast_Furnace_MK3",
+            "time": 2
+        },
+        {
+            "machine": "Blast_Furnace_MK4",
+            "time": 1.33
+        }
+      ],
+      "results": 24,
+      "requires": [
+        {
+          "amount": 24,
+          "item": "Iron_Ore"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Blast_Furnace_MK1",
+            "time": 4
+        },{
+            "machine": "Blast_Furnace_MK2",
+            "time": 2.667
+
+        },{
+            "machine": "Blast_Furnace_MK3",
+            "time": 2
+        },{
+            "machine": "Blast_Furnace_MK4",
+            "time": 1.33
+        }
+      ],
+      "results": 24,
+      "requires": [
+        {
+          "amount": 2,
+          "item": "Coke"
+        },{
+          "amount": 8,
+          "item": "Processed_Iron"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Blast_Furnace_MK1",
+            "time": 4
+        },{
+
+            "machine": "Blast_Furnace_MK2",
+            "time": 2.667
+        },{
+            "machine": "Blast_Furnace_MK3",
+            "time": 2
+        },{
+            "machine": "Blast_Furnace_MK4",
+            "time": 1.33
+        }
+      ],
+      "results": 24,
+      "requires": [
+        {
+          "amount": 2,
+          "item": "Coke"
+        },{
+          "amount": 2,
+          "item": "Limestone"
+        },{
+          "amount": 8,
+          "item": "Iron_Pellet"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Blast_Furnace_MK1",
+            "time": 4
+
+        },{
+            "machine": "Blast_Furnace_MK2",
+            "time": 2.667
+        },{
+            "machine": "Blast_Furnace_MK3",
+            "time": 2
+        },{
+            "machine": "Blast_Furnace_MK4",
+            "time": 1.33
+        }
+      ],
+      "results": 6,
+      "requires": [
+        {
+          "amount": 2,
+          "item": "Coke"
+        },{
+          "amount": 6,
+          "item": "Iron_Hydroxide"
+        }
+      ]
+    }
+  ]
+
+}

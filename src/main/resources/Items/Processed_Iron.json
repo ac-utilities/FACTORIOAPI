@@ -1,0 +1,147 @@
+{
+  "id": "Molten_Iron",
+  "crafting_recipe"  : [
+    {
+      "recipe": [
+        {
+            "machine": "Ore_Processing_Machine_MK1",
+            "time": 2
+        },{
+            "machine": "Ore_Processing_Machine_MK2",
+            "time": 1.333
+        },{
+
+            "machine": "Ore_Processing_Machine_MK3",
+            "time": 1
+        },{
+            "machine": "Ore_Processing_Machine_MK4",
+            "time": 0.667
+        }
+      ],
+      "results": 120,
+      "requires": [
+        {
+          "amount": 12,
+          "item": "Iron_Ingot"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Induction_Furnace_MK1",
+            "time": 4
+        },{
+            "machine": "Induction_Furnace_MK2",
+            "time": 2.667
+
+        },{
+            "machine": "Induction_Furnace_MK3",
+            "time": 2
+        },{
+            "machine": "Induction_Furnace_MK4",
+            "time": 1.333
+        }
+      ],
+      "results": 240,
+      "requires": [
+        {
+          "amount": 12,
+          "item": "Iron_Ingot"
+        },
+        {
+          "amount": 12,
+          "item": "Manganese_Ingot"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Induction_Furnace_MK1",
+            "time": 4
+        },{
+            "machine": "Induction_Furnace_MK2",
+            "time": 2.667
+        },{
+            "machine": "Induction_Furnace_MK3",
+            "time": 2
+        },{
+            "machine": "Induction_Furnace_MK4",
+            "time": 1.333
+        }
+      ],
+      "results": 240,
+      "requires": [
+        {
+          "amount": 12,
+          "item": "Iron_Ingot"
+        },
+        {
+          "amount": 12,
+          "item": "Silicon_Ingot"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Induction_Furnace_MK2",
+            "time": 2.667
+        },{
+            "machine": "Induction_Furnace_MK3",
+            "time": 2
+        },{
+            "machine": "Induction_Furnace_MK4",
+            "time": 1.333
+        }
+      ],
+      "results": 360,
+      "requires": [
+        {
+          "amount": 12,
+          "item": "Cobalt_Ingot"
+        },
+        {
+          "amount": 12,
+          "item": "Iron_Ingot"
+        },
+        {
+          "amount": 12,
+          "item": "Nickel_Ingot"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Induction_Furnace_MK2",
+            "time": 2.667
+
+        },{
+            "machine": "Induction_Furnace_MK3",
+            "time": 2
+
+        },{
+            "machine": "Induction_Furnace_MK4",
+            "time": 1.333
+        }
+      ],
+      "results": 360,
+      "requires": [
+        {
+          "amount": 12,
+          "item": "Chrome_Ingot"
+        },
+        {
+          "amount": 12,
+          "item": "Iron_Ingot"
+        },
+        {
+          "amount": 12,
+          "item": "Nickel_Ingot"
+        }
+      ]
+    }
+  ]
+}

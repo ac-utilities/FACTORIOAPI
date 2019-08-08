@@ -1,17 +1,94 @@
 {
   "id": "Iron_plate",
-  "producedBy": [
-    "Stone_furnace",
-    "Steel_furnace",
-    "Electric_furnace"
-  ],
-  "recipe": {
-    "itemAmounts": [
+  "crafting_recipe"  : [
+    {
+     "recipe": [
       {
-        "amount": 1 ,
-        "id": "Iron_ore"
+          "machine": "Casting_Machine_MK1",
+          "time": 4
+      },
+      {
+          "machine": "Casting_Machine_MK2",
+          "time": 2.667
+      },
+      {
+          "machine": "Casting_Machine_MK3",
+          "time": 2
+
+      },
+      {
+          "machine": "Casting_Machine_MK4",
+          "time": 1.333
       }
     ],
-    "time": 3.2
-  }
+      "results": 4,
+      "requires": [
+        {
+          "amount": 40,
+          "item": "Molten_Iron"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Stone_Furnace",
+            "time": 7
+        },
+        {
+
+            "machine": "Steel_Furnace",
+            "time": 3.5
+
+        }
+      ],
+      "results": 2,
+      "requires": [
+        {
+          "amount": 3,
+          "item": "Crushed_Saphirite"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Stone_Furnace",
+            "time": 10.5
+        },
+        {
+            "machine": "Steel_Furnace",
+            "time": 5.25
+        }
+      ],
+      "results": 3,
+      "requires": [
+        {
+          "amount": 4,
+          "item": "Iron_Ore"
+        }
+      ]
+    },
+    {
+      "recipe": [
+        {
+            "machine": "Assembling_machine_2",
+            "time": 0.667
+
+        },
+        {
+            "machine": "Assembling_machine_3",
+            "time": 0.4
+        }
+      ],
+      "results": 4,
+      "requires": [
+        {
+          "amount": 1,
+          "item": "Iron_Sheet_Coil"
+        }
+      ]
+    }
+  ]
+
 }
